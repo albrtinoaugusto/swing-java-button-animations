@@ -17,15 +17,12 @@ public class ButtonFrame extends javax.swing.JFrame
 
     
     private void animarBotao(){
-        
         Animation animation = new Animation();
-        animation.animateJButtonToRight(30, 390, 500, 100, button);
-                
+        animation.animateJButtonToRight(30, 390, 500, 100, button);           
     }
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents()
-    {
+    private void initComponents() {
 
         button = new javax.swing.JButton();
         close = new javax.swing.JButton();
@@ -41,10 +38,8 @@ public class ButtonFrame extends javax.swing.JFrame
         getContentPane().setLayout(null);
 
         button.setText("Click Me");
-        button.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        button.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonActionPerformed(evt);
             }
         });
@@ -52,10 +47,8 @@ public class ButtonFrame extends javax.swing.JFrame
         button.setBounds(30, 90, 100, 40);
 
         close.setText("Fechar");
-        close.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        close.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 closeActionPerformed(evt);
             }
         });
